@@ -8,15 +8,27 @@ body {
   width: 100vw;  
 }
 
-body div {
-  display: flex;
-}
 
 nav {
+  display: flex;  
+  width: 100%;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+nav div {
   display: flex;
-  flex-direction: column;
-  width: 20%;
-  background-color: red;
+  flex-direction: column;  
+}
+
+nav ul {
+  list-style: none;
+  display: flex;  
+  justify-content: space-around;
+}
+
+nav ul li a {
+  padding: 15px;
 }
 
 a {
