@@ -1,9 +1,9 @@
-import styles from '../../styles/Experience.module.css'
+import styles from '../../styles/Education.module.css'
 
 function index() {
   return (
     <div>
-      Experience page
+      Education page
     </div>
   )
 }
